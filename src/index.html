@@ -3,42 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400,700,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
-    <header>documento</header>
+    <header>
+    
+<div class='logo'><h1>Arcana</h1></div>
+      
+    </header>
     <main>
      
       <div id ='contenedor'>
-        <div id ='pantalla-1'class ='pantalla-1'>
-            <h1 class='contraseña'>contraseña:</h1>
-            <input type="password"  id="password"class ='cuadro de texto'>
-            <button type="button"class='buttonPass' id='empezar'>PASS</button>
-            <p id='resultado'></p>             
-        </div>
-        
-        <div id ='pantalla-2'class='pantalla-2 hide'>
-            <h1 class='bienvenida'>bienvenida a Arcana</h1>
-            <p>un lugar donde podras contar tus secretos sin miedo al que diran</p>
-            <button type='button'class='button-2'id='seguir'>seguir</button>
-            </div>
-        
-        <div id='pantalla-3'class='pantalla-3 hide' >
-            <h1>ahora sientete libre</h1>
-             <p>escribe tu primera confesion</p>
-             <input type ='text'id ='confesion'class='cuadro de texto'>
-             <button type='button'class='button-3'id='cifrar'>cifrar</button>
-             <button type='button'class='button-4'id='descifar'>descifrar</button>
-             <button type='button'class='button-5'id='limpiar'>limpiar</button>
-             <input type='text'id='traduccion'class='cuadro de texto'>
-        
-        <div id='pantalla-4'class='pantalla-4 hide'>
+          <div id ='pantalla-1'class ='pantalla-1'>
+            <div id='con' class='con'>
+              <h1 class='contraseña'>contraseña:</h1>
+              <input type="password"  id="password"class ='cuadroDeTexto'>
+              <button type="button"class='buttonPass' id='empezar'>ingresar</button>
+              <p id='resultado'></p>    
+            </div>         
+          </div>
+          
+          <div id ='pantalla-2'class='pantalla-2 hide'>
+              <h1 class='bienvenida'>Bienvenida(o)</h1>
+              <p id='prese'>Un lugar donde podras contar tus secretos
+                <br>
+                 sin miedo al que diran.</p>
+              <button type='button'class='button-2'id='seguir'>seguir</button>
+              </div>
+          
+          <div id='pantalla-3'class='pantalla-3 hide' >
+              <h1>ahora sientete libre</h1>
+               <p id='confe'>escribe tu primera confesion</p>
+               <input type ='text'id ='confesion'class='cuadroDeTexto-2'>
+               <button type='button'class='button-3'id='cifrar'>cifrar</button>
+               <button type='button'class='button-4'id='descifar'>descifrar</button>
+               <button type='button'class='button-5'id='limpiar'>limpiar</button>
+               <input type='text'id='traduccion'class='cuadroDeTexto-3'>
+          
+          <div id='pantalla-4'class='pantalla-4 hide'>
+            <h1>publicaciones</h1>
       
-      
-
     </main>
     <footer>derechos reservados por arcana company</footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
   </body>
 </html>

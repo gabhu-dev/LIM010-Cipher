@@ -1,21 +1,112 @@
+
+/* esto aplicado a todo*/
 *{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family:'Lato',sans-serif;
+}
+.contraseña{
+color: rgb(247, 247, 245);
+font-size: 20px;
+}
+.cuadroDeTexto{
+    width:200px;
+	height:30px;
+	border:none;
+	outline: none;
+	margin-top:5px;
+	text-align:center; 
+	padding:0;
+    border-radius: 35px 35px 35px 35px;  
+    
 }
 
+.logo{
+	width: 100%;
+	background-color: #696969;
+	background-size: 1000px;
+	padding-top:50px;
+	/*padding-bottom:50px;*/
+	font-size:30px;
+	font-family: 'Merriweather', serif;
+	/*font-weight: 800px;*/
+}
+
+.buttonPass{
+	height:40px;
+	width:100px;
+	border:none;
+	background-color:#3f4044c4;
+	border-radius:35px;
+	display: block;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size:20px;
+	color: #ffffff;
+}
+#resultado{
+   color: blueviolet ;
+   
+}
 .pantalla-1{
     height: 100vh;
-    background-image:url('york.jpg')
+    background-image:url('https://abcblogs.abc.es/proxima-estacion/wp-content/uploads/sites/86/2013/05/New_York_20_13.jpg');
 }
 .hide{
     display:none;
 }
 .pantalla-2{
-    height:100vh;
-    background-image:url('boys.jpg')
+    height:92vh;
+    background-image:url('http://dissenyaweb.com/blog/diseno_web/wp-content/uploads/large-background-1024x724.jpg');
 }
+.bienvenida{
+	font-size: 100px;
+	color: aqua;
+}
+#prese{
+	margin-top: 20px;
+	font-size: 50px;
+	color:palevioletred;
+}
+.button-2{
+	height:40px;
+	width:100px;
+	border:none;
+	background-color:#24f8f8d2;
+	border-radius:35px;
+	display: block;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size:20px;
+	color: #ffffff;
+
+}
+.cuadroDeTexto-2,.cuadroDeTexto-3{
+	width:500px;
+	height:100px;
+	margin-top:20px;
+	text-align:center; 
+	padding:0;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  .button-3,.button-4,.button-5{
+	height:30px;
+	width:85px;
+	border:none;
+	background-color:#24f8f8d2;
+	display: block;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: 200px;
+	font-size:20px;
+	color: #ffffff;
+}
+
+  
+
 
     
 
