@@ -20,12 +20,19 @@ let password=document.getElementById('password').value
             document.getElementById('empezar').disabled=true;
             }}}}
             )
-const seguir=document.getElementById('seguir')
-seguir.addEventListener('click',()=>{
-document.getElementById('pantalla-2').classList.add('hide');
-document.getElementById('pantalla-3').classList.remove('hide');
-
-  });
+            const seguir=document.getElementById('seguir')
+            seguir.addEventListener('click',()=>{
+            document.getElementById('pantalla-2').classList.add('hide');
+            document.getElementById('pantalla-3').classList.remove('hide');
+            
+              });
+              const cifrar=document.getElementById('cifrar')
+              cifrar.addEventListener('click',()=>{
+                  let age=document.getElementById('offset').value;
+                  let cifra=document.getElementById('confesion').value;
+                  document.getElementById('traduccion').innerHTML=window.cipher.encode(age,cifra);
+              });
+              
 
 
 

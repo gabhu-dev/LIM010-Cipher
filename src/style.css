@@ -4,10 +4,17 @@
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	
+}
+.con{
+	margin: auto;
+	vertical-align: middle;
 }
 .contraseña{
+
 color: rgb(247, 247, 245);
 font-size: 20px;
+
 }
 .cuadroDeTexto{
     width:200px;
