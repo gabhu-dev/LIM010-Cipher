@@ -8,7 +8,10 @@
 }
 .con{
 	margin: auto;
-	vertical-align: middle;
+    position: absolute;
+    left: 36em;
+    top: 342px;
+	
 }
 .contraseña{
 
@@ -67,6 +70,10 @@ font-size: 20px;
     height:92vh;
     background-image:url('http://dissenyaweb.com/blog/diseno_web/wp-content/uploads/large-background-1024x724.jpg');
 }
+.pantalla-3{
+	height: 92vh;
+
+}
 .bienvenida{
 	font-size: 100px;
 	color: aqua;
@@ -110,6 +117,10 @@ font-size: 20px;
 	margin-left: 200px;
 	font-size:20px;
 	color: #ffffff;
+}
+.cuadroDeTexto-7{
+	height: 10px;
+	width: 50px;
 }
 
   
