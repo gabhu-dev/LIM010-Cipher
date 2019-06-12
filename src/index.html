@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link href=<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Fresca&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Fresca&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
     
   </head>
@@ -16,24 +16,36 @@
     <main>
      
       <div id ='contenedor'>
-          <div id ='pantalla-1'class ='pantalla-1'>
+          <div id ='pantalla-1'class ='pantalla pantalla-1'>
             <div id='con' class='con'>
-              <h1 class='contraseña'>contraseña:</h1>
-              <input type="password"  id="password"class ='cuadroDeTexto'>
+              <h1 id='contraseña'><i class="fas fa-users"></i>contraseña:</h1>
+              <input type="password" value="LABORATORIA"  id="password"class ='cuadroDeTexto'>
               <button type="button"class='buttonPass' id='empezar'>ingresar</button>
               <p id='resultado'></p>    
             </div>         
           </div>
           
-          <div id ='pantalla-2'class='pantalla-2 hide'>
+          <div id ='pantalla-2'class='pantalla pantalla-2 hide'>
               <h1 class='bienvenida'>Bienvenida(o)</h1>
               <p id='prese'>Un lugar donde podras contar tus secretos
                 <br>
                  sin miedo al que diran.</p>
+                 <h2 id='pasos'>Pasos</h2>
+                 <p1>1.-Escribe tu secreto en el primer cuadro
+                   
+                   2.-Selecciona tu edad y elige entre descifra o cifrar
+                   <br>
+                   3.-En el segundo cuadro te aparecera lo escrito en codigo
+                   <br>
+                   4.-Elige la opcion de publicar
+                 </p1>
+
+
+
               <button type='button'class='button-2'id='seguir'>seguir</button>
               </div>
           
-              <div id='pantalla-3'class='pantalla-3 hide' >
+              <div id='pantalla-3'class='pantalla pantalla-3 hide' >
                 <h1>ahora sientete libre</h1>
                  <p id='confe'>escribe tu primera confesion</p>
                  <textarea type ='text'id ='confesion'class='cuadroDeTexto-2'></textarea>
@@ -49,7 +61,7 @@
                  </div>
                  
             
-            <div id='pantalla-4'class='pantalla-4 hide'>
+            <div id='pantalla-4'class='pantalla pantalla-4 hide'>
                 <h1>publicaciones</h1>
                 <p id='traducto'></p>
                 <P id='traducto-2'></P>
@@ -60,6 +72,8 @@
       <footer>derechos reservados por arcana company</footer>
       <script src="cipher.js"></script>
       <script src="index.js"></script>
+      <script src="https://kit.fontawesome.com/212a0d6821.js"></script>
+
   
     </body>
   </html>

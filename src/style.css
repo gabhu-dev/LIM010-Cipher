@@ -17,15 +17,19 @@
 .con{
     position: absolute;
     left: 36em;
-    top: 342px;
+    top: 325PX;
 	
 }
+.fas {
+	font-size: 70px;
+	display: inherit;
+}
 
-.contraseña{
+#contraseña{
 
 color: rgb(247, 247, 245);
 font-size: 20px;
-
+display: grid;
 }
 .cuadroDeTexto{
     width:200px;
@@ -49,44 +53,49 @@ font-size: 20px;
 	margin-left: auto;
 	font-size:20px;
 	color: #ffffff;
+	outline: transparent;
 }
 #resultado{
-   color: blueviolet ;
+   color: rgb(193, 250, 228) ;
+   font-size: 23px;
    
-}
-.pantalla-1{
-	height: 92vh;
-	background-size : cover;
-	background-repeat: no-repeat;
-	/*background-image:url('https://abcblogs.abc.es/proxima-estacion/wp-content/uploads/sites/86/2013/05/New_York_20_13.jpg')*/
-	/*background-image: url(http://merakettimde.com/wp-content/uploads/2018/07/resultado-de-imagen-para-fondos-de-pantalla-hd-para-pc-gratis-con-fondos-de-pantalla-para-pc-pinterest-e-fondos-de-pantalla-para-pc-pinterest-1920x1200px.jpg)*/
-	background-image:url(http://www.bruna.cat/imgdownload/full/13/135498/wallpaper-para-computador.jpg);
-	
-
-	
 }
 .hide{
     display:none;
 }
+.pantalla{
+	height: 80vh;
+	background-size : cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.pantalla-1{
+	background-image:url(http://www.bruna.cat/imgdownload/full/13/135498/wallpaper-para-computador.jpg);
+	}
+
 .pantalla-2{
-	height:92vh;
-	background-size: cover;
-    background-image:url('http://k31.kn3.net/taringa/1/3/6/2/2/3/38/arispc/D08.jpg?8157');
+	background-image:url('http://k31.kn3.net/taringa/1/3/6/2/2/3/38/arispc/D08.jpg?8157');
 }
 .pantalla-3{
-	height: 92vh;
-	background-size: cover;
 	background-image: url(https://images.pexels.com/photos/35888/amazing-beautiful-breathtaking-clouds.jpg?cs=srgb&dl=animal-de-miedo-escalofriante-35888.jpg&fm=jpg);
 
 }
+.pantalla-4{
+
+}
 .bienvenida{
-	font-size: 100px;
+	font-size: 50px;
 	color: aqua;
 }
 #prese{
-	margin-top: 20px;
+	margin-top: 10px;
 	font-size: 50px;
-	color:palevioletred;
+	color:rgb(248, 245, 246);
+}
+h2 p1{
+
+color:white;
+font-size: 10px;
 }
 .button-2{
 	height:40px;
