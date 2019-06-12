@@ -1,18 +1,26 @@
 
-/* esto aplicado a todo*/
+/* selector universal*/
 *{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	
 }
+.logo{
+	width: 100%;
+	background-color: #696969;
+	background-size: 1000px;
+	padding-top:50px;
+	font-size:30px;
+	font-family: 'Fresca', sans-serif;
+	}
+
 .con{
-	margin: auto;
     position: absolute;
     left: 36em;
     top: 342px;
 	
 }
+
 .contraseña{
 
 color: rgb(247, 247, 245);
@@ -25,22 +33,9 @@ font-size: 20px;
 	border:none;
 	outline: none;
 	margin-top:5px;
-	text-align:center; 
-	padding:0;
     border-radius: 35px 35px 35px 35px;  
-    
-}
+    }
 
-.logo{
-	width: 100%;
-	background-color: #696969;
-	background-size: 1000px;
-	padding-top:50px;
-	/*padding-bottom:50px;*/
-	font-size:30px;
-	font-family: 'Merriweather', serif;
-	/*font-weight: 800px;*/
-}
 
 .buttonPass{
 	height:40px;
@@ -60,18 +55,28 @@ font-size: 20px;
    
 }
 .pantalla-1{
-    height: 100vh;
-    background-image:url('https://abcblogs.abc.es/proxima-estacion/wp-content/uploads/sites/86/2013/05/New_York_20_13.jpg');
+	height: 92vh;
+	background-size : cover;
+	background-repeat: no-repeat;
+	/*background-image:url('https://abcblogs.abc.es/proxima-estacion/wp-content/uploads/sites/86/2013/05/New_York_20_13.jpg')*/
+	/*background-image: url(http://merakettimde.com/wp-content/uploads/2018/07/resultado-de-imagen-para-fondos-de-pantalla-hd-para-pc-gratis-con-fondos-de-pantalla-para-pc-pinterest-e-fondos-de-pantalla-para-pc-pinterest-1920x1200px.jpg)*/
+	background-image:url(http://www.bruna.cat/imgdownload/full/13/135498/wallpaper-para-computador.jpg);
+	
+
+	
 }
 .hide{
     display:none;
 }
 .pantalla-2{
-    height:92vh;
-    background-image:url('http://dissenyaweb.com/blog/diseno_web/wp-content/uploads/large-background-1024x724.jpg');
+	height:92vh;
+	background-size: cover;
+    background-image:url('http://k31.kn3.net/taringa/1/3/6/2/2/3/38/arispc/D08.jpg?8157');
 }
 .pantalla-3{
 	height: 92vh;
+	background-size: cover;
+	background-image: url(https://images.pexels.com/photos/35888/amazing-beautiful-breathtaking-clouds.jpg?cs=srgb&dl=animal-de-miedo-escalofriante-35888.jpg&fm=jpg);
 
 }
 .bienvenida{
@@ -101,8 +106,6 @@ font-size: 20px;
 	width:500px;
 	height:100px;
 	margin-top:20px;
-	text-align:center; 
-	padding:0;
 	margin-right: auto;
 	margin-left: auto;
   }
