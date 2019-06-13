@@ -20,7 +20,7 @@
             <div id='con' class='con'>
               <h1 id='contraseña'><i class="fas fa-users"></i>contraseña:</h1>
               <input type="password" value="LABORATORIA"  id="password"class ='cuadroDeTexto'>
-              <button type="button"class='buttonPass' id='empezar'>ingresar</button>
+              <button type="button"class='button buttonPass' id='empezar'>ingresar</button>
               <p id='resultado'></p>    
             </div>         
           </div>
@@ -30,33 +30,26 @@
               <p id='prese'>Un lugar donde podras contar tus secretos
                 <br>
                  sin miedo al que diran.</p>
-                 <h2 id='pasos'>Pasos</h2>
-                 <p1>1.-Escribe tu secreto en el primer cuadro
-                   
-                   2.-Selecciona tu edad y elige entre descifra o cifrar
-                   <br>
-                   3.-En el segundo cuadro te aparecera lo escrito en codigo
-                   <br>
-                   4.-Elige la opcion de publicar
-                 </p1>
-
-
-
-              <button type='button'class='button-2'id='seguir'>seguir</button>
+              <h2 id='alerta'><i class="fas fa-exclamation-circle"></i>Todo lo escrito es anónimo.</h2>
+              <button type='button'class='button button-2'id='seguir'>seguir</button>
               </div>
           
               <div id='pantalla-3'class='pantalla pantalla-3 hide' >
-                <h1>ahora sientete libre</h1>
-                 <p id='confe'>escribe tu primera confesion</p>
+                <h1 class='ahora'>Ahora sientete libre</h1>
+                 <p id='confe'>Escribe tu primera confesion</p>
                  <textarea type ='text'id ='confesion'class='cuadroDeTexto-2'></textarea>
-                 <input type='number'class='button'id='offset' min='1'max='30'>edad</button>
-                 <button type='button'class='button-3'id='cifrar'>cifrar</button>
-                 <button type='button'class='button-4'id='descifrar'>descifrar</button>
-                 <button type='button'class='button-5'id='limpiar'>limpiar</button>
-                 <textarea type='text'id='traduccion'class='cuadroDeTexto-3'></textarea>
-                 <button type="reset" id= 'limpiar'value="Borrar información">
-                 <button type='button'class=button-6 id='publicar'>publicar</button>
-                 <input type="text" class='cuadroDeTexto-7'id='nombre'>
+                 <div id='caja'><p id='eda'>Edad</p>
+                 <input type='number'class='button'id='offset'max='30' min='1'></button>
+                </div>
+                 <button type='button'class='button button-3'id='cifrar'>cifrar</button>
+                 <button type='button'class='button button-4'id='descifrar'>descifrar</button>
+                 <button type='button'class='button button-5'id='limpiar'>limpiar</button>
+                 <textarea type='text'id='traduccion'class='cuadroDeTexto-3'></textarea>   
+                 <div id='nom-1'><p id='nom'>Nombre</p>
+                <input type="text" class='cuadroDeTexto-4'id='nombre'>
+                 </div>
+                 <button type='button'class='button button-6' id='publicar'>publicar</button>
+              
 
                  </div>
                  
