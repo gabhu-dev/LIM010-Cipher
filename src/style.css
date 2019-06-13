@@ -66,7 +66,10 @@ h2 .fas{
 }
 #caja{
 margin-left:729px ;
-margin-top: -83px;
+position:absolute;
+top:271px;
+left:230px;
+
 }
 #offset{
 	background-color: #6c5ce7;
@@ -75,8 +78,10 @@ margin-top: -83px;
 	color:rgb(231, 245, 111);
 }
 #nom-1{
-	margin-left:729px;
-	margin-top:20px;
+	margin-left:729px ;
+	position:absolute;
+	top:480px;
+	left:230px;
 }
 #nom{
 	color: #f1c40f;
@@ -89,6 +94,11 @@ margin-top: -83px;
 	color: #ffffff;
 }
 .buttonPass{
+	border:none;
+	border-radius: 35px;
+	font-size:20px;
+	outline: none;
+	color: #ffffff;
 	height:40px;
 	width:100px;
 	background-color:#3f4044c4;	
@@ -97,37 +107,45 @@ margin-top: -83px;
 	margin-right: 100px;
 	margin-left:100px;
 }
-.button-2{
+#seguir{
 	height:30px;
 	width:85px;
 	background-color:#74b9ff;
 	margin-left: 28em;
 	box-shadow: 0px 3px 0px #0984e3;
 }
-.button-3{
+#cifrar{
 	background-color:#a29bfe;
-	margin-left: 200px;
+	position: absolute;
+	top: 387px;
+    left: 470px;
 	padding: 7px;
 	width: 4em;
 	box-shadow:0px 3px 0px #6c5ce7;
 }
-.button-4{
-	background-color:#55efc4;
-	margin:center;
+#descifrar{
+	background-color:#353b48;
+	position:adsolute;
+	top:387px;
+	left:558px;
 	padding:7px;
 	width:5em;
-	box-shadow: 0px 3px 0px #00b894;
+	box-shadow: 0px 3px 0px #2f3640;
 }
-.button-5{
-background-color:#ff7675;
-margin-right: 200px;
-padding:7px;
-width:4em;
-box-shadow:0px 3px 0px #d63031;
+#limpiar{
+	background-color:#ff7675;
+	position: absolute;
+	top: 387px;
+	left: 759px;
+	padding:7px;
+	width:4em;
+	box-shadow:0px 3px 0px #d63031;
 }
-.button-6{
+#publicar{
 	background-color: #f1c40f;
-	margin-right: 20px;
+	position:absolute;
+	top: 544px;
+    right: 95px;
 	padding:7px;
 	width:6em;
 	box-shadow:0px 3px 0px #f39c12;
@@ -146,18 +164,18 @@ box-shadow:0px 3px 0px #d63031;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-.pantalla-1{
+#pantalla-1{
 	background-image:url(http://www.bruna.cat/imgdownload/full/13/135498/wallpaper-para-computador.jpg);
 	}
 
-.pantalla-2{
+#pantalla-2{
 	background-image:url(http://k31.kn3.net/taringa/1/3/6/2/2/3/38/arispc/D08.jpg?8157);
 }
-.pantalla-3{
+#pantalla-3{
 	background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1612/Black-cat-face-yellow-eye_1920x1200.jpg);
 
 }
-.pantalla-4{
+#pantalla-4{
 background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/7103.jpg)
 }
 .cuadroDeTexto{
