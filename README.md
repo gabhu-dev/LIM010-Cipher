@@ -25,10 +25,10 @@ Por eso aparece **ARCANA** con la solucion en sus manos propone una web donde to
 ### Prototipo en balsamiq
 ![1er pant-balsa](pant1.jpg)
 ![2da pant-balsa](pant2.jpg)
-![3ra pant-balsa](pant3.jpg)
+![3ra pant-balsa](pant3.png)
 ![4ta pant-balsa](pant4.jpg)
 
-
-
+### Pantalla final
+![pant](final.png)
 
 

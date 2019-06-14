@@ -1,219 +1,292 @@
-
 /* selector universal*/
-*{
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-.logo{
-	width: 100%;
-	background-color: #696969;
-	background-size: 1000px;
-	padding-top:50px;
-	font-size:30px;
-	font-family: 'Fresca', sans-serif;
-	}
 
-.con{
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    background-color: #696969;
+    background-size: 1000px;
+    padding: 25px 0 15px 0;
+    font-size: 25px;
+    font-family: 'Fresca', sans-serif;
+    color: #EEE;
+    letter-spacing: 30px;
+}
+
+.con {
     position: absolute;
     left: 32em;
     top: 325PX;
-	}
+}
+
 .fas {
-	font-size: 70px;
-	display: inherit;
-}
-#contraseña{
-color: rgb(247, 247, 245);
-font-size: 20px;
-display: grid;
+    font-size: 70px;
+    display: inherit;
 }
 
-#resultado{
-   color: rgb(193, 250, 228) ;
-   font-size: 23px;
-   
-}
-.bienvenida{
-	padding-top: 20px;
-	font-size: 100px;
-	color:lightgray;
-}
-#prese{
-	margin-top: 20px;
-	font-size: 50px;
-	color:rgb(248, 245, 246);
-}
-#alerta{
-	padding-top: 5em;
-	font-size: 30px;
-	color:white;
-	margin-right: 25em;
-}
-h2 .fas{
-	margin-right: 10px;
-	font-size: 40px;
-	color:red;
-}
-.ahora{
-	padding-top: 40px;
-	color: white;
-	font-size: 37px;
-}
-#confe{
-	color: #ff7675;
-	font-size: 20px;
-}
-#caja{
-margin-left:729px ;
-position:absolute;
-top:271px;
-left:230px;
-
-}
-#offset{
-	background-color: #6c5ce7;
-}
-#eda{
-	color:rgb(231, 245, 111);
-}
-#nom-1{
-	margin-left:729px ;
-	position:absolute;
-	top:480px;
-	left:230px;
-}
-#nom{
-	color: #f1c40f;
-}
-.button{
-	border:none;
-	border-radius: 35px;
-	font-size:20px;
-	outline: none;
-	color: #ffffff;
-}
-.buttonPass{
-	border:none;
-	border-radius: 35px;
-	font-size:20px;
-	outline: none;
-	color: #ffffff;
-	height:40px;
-	width:100px;
-	background-color:#3f4044c4;	
-	display:block;
-	margin-top: 30px;
-	margin-right: 100px;
-	margin-left:100px;
-}
-#seguir{
-	height:30px;
-	width:85px;
-	background-color:#74b9ff;
-	margin-left: 28em;
-	box-shadow: 0px 3px 0px #0984e3;
-}
-#cifrar{
-	background-color:#a29bfe;
-	position: absolute;
-	top: 387px;
-    left: 470px;
-	padding: 7px;
-	width: 4em;
-	box-shadow:0px 3px 0px #6c5ce7;
-}
-#descifrar{
-	background-color:#353b48;
-	position:adsolute;
-	top:387px;
-	left:558px;
-	padding:7px;
-	width:5em;
-	box-shadow: 0px 3px 0px #2f3640;
-}
-#limpiar{
-	background-color:#ff7675;
-	position: absolute;
-	top: 387px;
-	left: 759px;
-	padding:7px;
-	width:4em;
-	box-shadow:0px 3px 0px #d63031;
-}
-#publicar{
-	background-color: #f1c40f;
-	position:absolute;
-	top: 544px;
-    right: 95px;
-	padding:7px;
-	width:6em;
-	box-shadow:0px 3px 0px #f39c12;
-}
-.button:hover{
-	box-shadow: 0px 0px 0px;
-	padding-top: 6px;
+#contraseña {
+    color: rgb(247, 247, 245);
+    font-size: 20px;
+    display: grid;
 }
 
-.hide{
-    display:none;
-}
-.pantalla{
-	height: 80vh;
-	background-size : cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-#pantalla-1{
-	background-image:url(http://www.bruna.cat/imgdownload/full/13/135498/wallpaper-para-computador.jpg);
-	}
-
-#pantalla-2{
-	background-image:url(http://k31.kn3.net/taringa/1/3/6/2/2/3/38/arispc/D08.jpg?8157);
-}
-#pantalla-3{
-	background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1612/Black-cat-face-yellow-eye_1920x1200.jpg);
-
-}
-#pantalla-4{
-background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/7103.jpg)
-}
-.cuadroDeTexto{
-    width:200px;
-	height:30px;
-	border:none;
-	outline: none;
-	margin-top:5px;
-    border-radius: 35px;  
-}
-.cuadroDeTexto-2{
-	width:500px;
-	height:100px;
-	margin-top:20px;
-	margin-right: 360px;
-	margin-left: 360px;
-	border:7px inset darksalmon;
-	margin-bottom: 50px;
-  }
-  .cuadroDeTexto-3{
-	width:500px;
-	height:100px;
-	margin-top:20px;
-	margin-right: 410px;
-	margin-left: 410px;
-	border:7px inset rgb(141, 123, 248);
-  }
-.cuadroDeTexto-4{
-	height: 20px;
-	width: 100px;
-	border:2px solid #6c5ce7;
-	margin-
+#resultado {
+    color: rgb(193, 250, 228);
+    font-size: 23px;
 }
 
+.bienvenida {
+    padding-top: 20px;
+    font-size: 100px;
+    color: lightgray;
+}
 
-  
+#prese {
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(248, 245, 246);
+}
 
+#alerta {
+    padding-top: 5em;
+    font-size: 30px;
+    color: white;
+    margin-right: 25em;
+}
 
-    
+h2 .fas {
+    margin-right: 10px;
+    font-size: 40px;
+    color: red;
+}
 
-    
+.ahora {
+    padding-top: 40px;
+    color: white;
+    font-size: 37px;
+}
+
+#confe {
+    color: #ff7675;
+    font-size: 20px;
+}
+
+#caja {
+    margin-left: 729px;
+    position: absolute;
+    top: 271px;
+    left: 230px;
+}
+
+#offset {
+    /* background-color: #6c5ce7; */
+}
+
+#eda {
+    color: #000000;
+}
+
+#nombre {
+    color: #EEE;
+}
+
+#nom-1 {
+    margin-left: 729px;
+    position: absolute;
+    top: 480px;
+    left: 230px;
+}
+
+#nom {
+    color: #f1c40f;
+}
+
+.button {
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+    outline: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 7px;
+}
+
+.buttonPass {
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+    outline: none;
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+    background-color: #3f4044c4;
+    display: block;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#seguir {
+    background-color: #74b9ff;
+    margin-left: 28em;
+    box-shadow: 0px 3px 0px #0984e3;
+}
+
+#cifrar {
+    background-color: #a29bfe;
+    position: absolute;
+    top: 387px;
+    left: 420px;
+    box-shadow: 0px 3px 0px #6c5ce7;
+}
+
+#descifrar {
+    background-color: #353b48;
+    position: absolute;
+    top: 387px;
+    left: 599px;
+    box-shadow: 0px 3px 0px #2f3640;
+}
+
+#limpiar {
+    background-color: #ff7675;
+    position: absolute;
+    top: 387px;
+    left: 759px;
+    box-shadow: 0px 3px 0px #d63031;
+}
+
+#publicar {
+    background-color: #f1c40f;
+    position: absolute;
+    top: 580px;
+    left: 799px;
+    box-shadow: 0px 3px 0px #f39c12;
+}
+
+#volver {
+    background-color: green;
+    position: absolute;
+    top: 500px;
+    right: 500px;
+}
+
+#salir {
+    background-color: #74b9ff;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 0px !important;
+    padding-top: 6px;
+}
+
+#publicaciones {
+    font-size: 56px;
+    padding-top: 30px;
+    color: cadetblue;
+}
+
+#traducto {
+    color: rgb(231, 245, 111);
+    font-size: 30px;
+    margin-right: 1005px;
+}
+
+#traducto-2 {
+    size: 30px;
+    color: snow;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 8px;
+    padding: 8px;
+    border-bottom: 2px solid dodgerblue;
+    border-top: 2px solid dodgerblue;
+}
+
+.hide {
+    display: none;
+}
+
+.pantalla {
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#pantalla-1 {
+    background-image: url(http://www.bruna.cat/imgdownload/full/13/135498/wallpaper-para-computador.jpg);
+}
+
+#pantalla-2 {
+    background-image: url(http://k31.kn3.net/taringa/1/3/6/2/2/3/38/arispc/D08.jpg?8157);
+}
+
+#pantalla-3 {
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1612/Black-cat-face-yellow-eye_1920x1200.jpg);
+    /* position: relative; */
+}
+
+.panel-indicacion {
+    position: absolute;
+    Left: 26px;
+    top: 260px;
+    width: 26vw;
+    background-color: #f1c40f;
+    padding: .25em;
+}
+
+.panel-indicacion li {
+    text-align: left;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.panel-cifrado {
+    /* float: right; */
+}
+
+#pantalla-4 {
+    background-image: url(https://exuc.files.wordpress.com/2016/09/gato-negro.jpg)
+}
+
+.cuadroDeTexto {
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 35px;
+}
+
+.cuadroDeTexto-2 {
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 360px;
+    margin-left: 360px;
+    border: 7px inset darksalmon;
+    margin-bottom: 50px;
+}
+
+.cuadroDeTexto-3 {
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 410px;
+    margin-left: 410px;
+    border: 7px inset rgb(141, 123, 248);
+}
+
+.cuadroDeTexto-4 {
+    height: 20px;
+    width: 100px;
+    border: 2px solid #6c5ce7;
+}

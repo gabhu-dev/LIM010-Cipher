@@ -2,73 +2,91 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Fresca&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Fresca&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <h1>Arcana</h1>
-    </div>
-  </header>
-  <main>
-
-    <div id="contenedor">
-      <div id="pantalla-1" class="pantalla">
-        <div id="con" class="con">
-          <h1 id="contraseña">
-            <i class="fas fa-users"></i>contraseña:</h1>
-          <input type="password" id="password" class="cuadroDeTexto">
-          <button type="button" class="buttonPass" id="empezar">ingresar</button>
-          <p id="resultado"></p>
+    <header>
+        <div class="logo">
+            <h1>ARCANA</h1>
+            <span>
+              TU LUGAR DE SECRETOS
+            </span>
         </div>
-      </div>
+    </header>
+    <main>
 
-      <div id="pantalla-2" class="pantalla hide">
-        <h1 class="bienvenida">Bienvenida(o)</h1>
-        <p id="prese">Un lugar donde podras contar tus secretos
-          <br> sin miedo al que diran.</p>
-        <h2 id="alerta">
-          <i class="fas fa-exclamation-circle"></i>Todo lo escrito es anónimo.</h2>
-        <button type="button" class="button" id="seguir">seguir</button>
-      </div>
+        <div id="contenedor">
+            <div id="pantalla-1" class="pantalla">
+                <div id="con" class="con">
+                    <h1 id="contraseña">
+                        <i class="fas fa-users"></i>CONTRASEÑA:</h1>
+                    <input type="password" id="password" class="cuadroDeTexto">
+                    <button type="button" class="buttonPass" id="empezar">ingresar</button>
+                    <p id="resultado"></p>
+                </div>
+            </div>
 
-      <div id="pantalla-3" class="pantalla hide">
-        <h1 class="ahora">Ahora sientete libre</h1>
-        <p id="confe">Escribe tu primera confesion</p>
-        <textarea type="text" id="confesion" class="cuadroDeTexto-2"></textarea>
-        <div id="caja">
-          <p id="eda">Edad</p>
-          <input type="number" class="button" id="offset" max="30" min="1">
+            <div id="pantalla-2" class="pantalla hide">
+                <h1 class="bienvenida">Bienvenid@</h1>
+                <p id="prese">Un lugar donde podras contar tus secretos
+                    <br> sin miedo al que diran.</p>
+                <h2 id="alerta">
+                    <i class="fas fa-exclamation-circle"></i>Todo lo escrito es anónimo.</h2>
+                <button type="button" class="button" id="seguir">seguir</button>
+            </div>
+
+            <div id="pantalla-3" class="pantalla hide">
+                <div class="panel-indicacion">
+                    <h3>Indicaciones</h3>
+                    <p>Siguiendo las lindicaciones podras publicar anonimamente</p>
+                    <ol>
+                        <li>1:Pon tu confesion en el primer recuadro.</li>
+                        <li>2:Luego selecciona tu edad</li>
+                        <li>3:Selecciona entre las opciones de descifrar,cifrar</li>
+                        <li>4:Escribe un nombre</li>
+                        <li>5:Publica</li>
+                    </ol>
+                </div>
+                <div class="panel-cifrado">
+                    <h1 class="ahora">Ahora sientete libre</h1>
+                    <p id="confe">Escribe tu primera confesion</p>
+                    <textarea type="text" id="confesion" class="cuadroDeTexto-2"></textarea>
+                    <div id="caja">
+                        <p id="eda">Edad</p>
+                        <input type="number" id="offset" max="30" min="1">
+                    </div>
+                    <button type="button" class="button" id="cifrar">transforma</button>
+                    <button type="button" class="button" id="descifrar">revertir</button>
+                    <button type="button" class="button" id="limpiar">limpiar</button>
+                    <textarea type="text" id="traduccion" class="cuadroDeTexto-3"></textarea>
+                    <div id="nom-1">
+                        <p id="nombre">Nombre</p>
+                        <input type="text" class="cuadroDeTexto-4" id="nombre-1">
+                    </div>
+                    <button type="button" class="button" id="publicar">publicar</button>
+                </div>
+            </div>
+
+
+            <div id="pantalla-4" class="pantalla hide">
+                <h1 id="publicaciones">Publicaciones</h1>
+                <p id="traducto"></p>
+                <p id="traducto-2"></p>
+                <button type="button" class="button" id="volver">volver</button>
+                <button type="button" class="button" id="salir">salir</button>
+            </div>
         </div>
-        <button type="button" class="button" id="cifrar">cifrar</button>
-        <button type="button" class="button" id="descifrar">descifrar</button>
-        <button type="button" class="button" id="limpiar">limpiar</button>
-        <textarea type="text" id="traduccion" class="cuadroDeTexto-3"></textarea>
-        <div id="nom-1">
-          <p id="nombre">Nombre</p>
-          <input type="text" class="cuadroDeTexto-4" id="nombre-1">
-        </div>
-        <button type="button" class="button" id="publicar">publicar</button>
-      </div>
 
-
-      <div id="pantalla-4" class="pantalla hide">
-        <h1>publicaciones</h1>
-        <p id="traducto"></p>
-        <p id="traducto-2"></p>
-      </div>
-    </div>
-
-  </main>
-  <footer>derechos reservados por arcana company</footer>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-  <script src="https://kit.fontawesome.com/212a0d6821.js"></script>
+    </main>
+    <footer>derechos reservados por arcana company</footer>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/212a0d6821.js"></script>
 
 
 </body>
