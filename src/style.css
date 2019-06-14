@@ -83,11 +83,13 @@ h2 .fas {
 }
 
 #offset {
-    /* background-color: #6c5ce7; */
+background-color:grey;
+border:3px solid white;
 }
 
 #eda {
-    color: #000000;
+    color:black;
+    font-weight: bold;
 }
 
 #nombre {
@@ -131,9 +133,11 @@ h2 .fas {
 }
 
 #seguir {
-    background-color: #74b9ff;
-    margin-left: 28em;
-    box-shadow: 0px 3px 0px #0984e3;
+    background-color:grey;
+    position: absolute;
+    top: 544px;
+    right: 197px;
+    box-shadow: 0px 3px 0px black;
 }
 
 #cifrar {
@@ -169,14 +173,15 @@ h2 .fas {
 }
 
 #volver {
-    background-color: green;
+    background-color:lightslategray;
     position: absolute;
     top: 500px;
     right: 500px;
 }
 
 #salir {
-    background-color: #74b9ff;
+    background-color: lightgray;
+    color: #2f3640;
     position: absolute;
     top: 500px;
     left: 500px;
@@ -231,7 +236,6 @@ h2 .fas {
 
 #pantalla-3 {
     background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1612/Black-cat-face-yellow-eye_1920x1200.jpg);
-    /* position: relative; */
 }
 
 .panel-indicacion {
@@ -239,7 +243,8 @@ h2 .fas {
     Left: 26px;
     top: 260px;
     width: 26vw;
-    background-color: #f1c40f;
+    background-color:gray;
+    border:3px dashed wheat;
     padding: .25em;
 }
 
@@ -249,9 +254,6 @@ h2 .fas {
     font-weight: bold;
 }
 
-.panel-cifrado {
-    /* float: right; */
-}
 
 #pantalla-4 {
     background-image: url(https://exuc.files.wordpress.com/2016/09/gato-negro.jpg)
@@ -272,8 +274,11 @@ h2 .fas {
     margin-top: 20px;
     margin-right: 360px;
     margin-left: 360px;
-    border: 7px inset darksalmon;
+    border: 7px inset white ;
     margin-bottom: 50px;
+    background-color: #2f3640;
+    color:white;
+
 }
 
 .cuadroDeTexto-3 {
@@ -282,11 +287,14 @@ h2 .fas {
     margin-top: 20px;
     margin-right: 410px;
     margin-left: 410px;
-    border: 7px inset rgb(141, 123, 248);
+    border: 7px inset white;
+    background-color: #2f3640;
+    color:white;
 }
 
 .cuadroDeTexto-4 {
     height: 20px;
     width: 100px;
-    border: 2px solid #6c5ce7;
+    border: 2px solid white;
+    background-color: #a29bfe
 }
