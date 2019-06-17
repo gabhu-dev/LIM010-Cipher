@@ -6,6 +6,7 @@
     <title>Caesar Cipher</title>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Fresca&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -22,57 +23,56 @@
 
         <div id="contenedor">
             <div id="pantalla-1" class="pantalla">
-                <div id="con" class="con">
-                    <h1 id="contraseña">
-                        <i class="fas fa-users"></i>CONTRASEÑA:</h1>
+                <div id="comun" class="comun">
+                    <h1 id="nombre"><i class="fas fa-users"></i>Nombre</h1>
+                    <input type="text" class="cuadroDeTexto-4" id="nombre-1">
+                    <h2 id="contraseña" class="contraseña"> CONTRASEÑA:</h2>
                     <input type="password" id="password" class="cuadroDeTexto">
-                    <button type="button" class="buttonPass" id="empezar">ingresar</button>
-                    <p id="resultado"></p>
+                    <p id="resultado" class="resultado"></p>
+                    <button type="button" id="empezar" class="buttonPass">ingresar</button>
+
                 </div>
             </div>
 
             <div id="pantalla-2" class="pantalla hide">
                 <h1 class="bienvenida">Bienvenid@</h1>
-                <p id="prese">Un lugar donde podras contar tus secretos
+                <p class="presentacion">Un lugar donde podras contar tus secretos
                     <br> sin miedo al que diran.</p>
-                <h2 id="alerta">
-                    <i class="fas fa-exclamation-circle"></i>Todo lo escrito es anónimo.</h2>
-                <button type="button" class="button" id="seguir">seguir</button>
+                <div class="nota">
+                    <h2 class="alerta">
+                        <i class="fas fa-exclamation-circle"></i>Todo lo escrito es anónimo.</h2>
+                    <button type="button" class="button" id="seguir">seguir</button>
+                </div>
             </div>
 
             <div id="pantalla-3" class="pantalla hide">
-                <div class="panel-indicacion">
-                    <h3>Indicaciones</h3>
-                    <p>Sigue estos pasos</p>
-                    <ol>
-                        <li>1:Pon tu confesion en el primer recuadro.</li>
-                        <li>2:Luego selecciona tu edad</li>
-                        <li>3:Selecciona entre las opciones de descifrar,cifrar</li>
-                        <li>4:Escribe un nombre</li>
-                        <li>5:Publica</li>
-                    </ol>
-                </div>
-                <div class="panel-cifrado">
+                <section class="panel-cifrado">
                     <h1 class="ahora">Ahora sientete libre</h1>
                     <p id="confe">Escribe tu primera confesion</p>
                     <textarea type="text" id="confesion" class="cuadroDeTexto-2"></textarea>
                     <div id="caja">
                         <p id="eda">Edad</p>
-                        <input type="number" id="offset" max="30" min="1">
+                        <input type="number" id="offset" max="60" min="1">
                     </div>
-                    <button type="button" class="button" id="cifrar">transforma</button>
+                    <button type="button" class="button" id="cifrar">transformar</button>
                     <button type="button" class="button" id="descifrar">revertir</button>
                     <button type="button" class="button" id="limpiar">limpiar</button>
                     <textarea type="text" id="traduccion" class="cuadroDeTexto-3"></textarea>
-                    <div id="nom-1">
-                        <p id="nombre">Nombre</p>
-                        <input type="text" class="cuadroDeTexto-4" id="nombre-1">
-                    </div>
+
                     <button type="button" class="button" id="publicar">publicar</button>
-                </div>
+                </section>
+                <aside class="panel-indicacion">
+                    <div class="">
+                        <p>Comparte tus secretos siguiendo estos pasos </p>
+                        <ol>
+                            <li>Pon tu confesion en el primer recuadro.</li>
+                            <li>Luego selecciona tu edad</li>
+                            <li>Selecciona entre las tres opciones</li>
+                            <li>Publica</li>
+                        </ol>
+                    </div>
+                </aside>
             </div>
-
-
             <div id="pantalla-4" class="pantalla hide">
                 <h1 id="publicaciones">Publicaciones</h1>
                 <p id="traducto"></p>

@@ -20,7 +20,9 @@ Por eso aparece **ARCANA** con la solucion en sus manos propone una web donde to
 - Agregar un enncabezado y footer para todos
 - Cambiar el nombre al boton de offset por otro mas entendible
 - cambiar el nombre de los botones cifrar y descifrar porque no se entiende
-- En la pantalla 4 agregar un boton de salir
+- En la pantalla 4 agregar un boton de salir y volver.
+- Poner indicaciones para hacerlo mas entendible.
+- preguntar por el usuario en la primera pantalla.
 
 ### Prototipo en balsamiq
 ![1er pant-balsa](pant1.jpg)
@@ -30,5 +32,6 @@ Por eso aparece **ARCANA** con la solucion en sus manos propone una web donde to
 
 ### Pantalla final
 ![pant](final.png)
+
 
 

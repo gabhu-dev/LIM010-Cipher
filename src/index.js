@@ -63,5 +63,5 @@ volver.addEventListener('click', () => {
 const salir = document.getElementById('salir')
 salir.addEventListener('click', () => {
     document.getElementById('pantalla-4').classList.add('hide');
-    document.getElementById('pantalla-1').classList.add('hide');
+    document.getElementById('pantalla-1').classList.remove('hide');
 })
