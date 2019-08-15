@@ -17,9 +17,66 @@
     letter-spacing: 30px;
 }
 
-.comun {
-    padding-top: 68px;
-    margin-right: 69px;
+.hide {
+    display: none;
+}
+
+.pantalla {
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#pantalla-1 {
+    background-image: url(http://www.bruna.cat/imgdownload/full/13/135498/wallpaper-para-computador.jpg);
+}
+
+#pantalla-2 {
+    background-image: url(http://k31.kn3.net/taringa/1/3/6/2/2/3/38/arispc/D08.jpg?8157);
+}
+
+#pantalla-3 {
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1612/Black-cat-face-yellow-eye_1920x1200.jpg);
+}
+
+#pantalla-4 {
+    background-image: url(https://exuc.files.wordpress.com/2016/09/gato-negro.jpg)
+}
+
+.cuadroDeTexto,
+.cuadroDeTexto-4 {
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 35px;
+}
+
+.cuadroDeTexto-2 {
+    width: 450px;
+    height: 78px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    border: 7px inset white;
+    background-color: #2f3640;
+    color: white;
+}
+
+.cuadroDeTexto-3 {
+    width: 450px;
+    height: 78px;
+    border: 7px inset white;
+    margin-top: 10px;
+    background-color: #2f3640;
+    color: white;
+}
+
+.vista-1 {
+    display: flex;
+    align-content: center;
+    width: 40%;
 }
 
 .fas {
