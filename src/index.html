@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div id="screen-2" class="pantalla hide">
+            <div id="screen-2" class="pantalla hide text-align-c">
                 <h1 class="screen-2-bienvenida">Bienvenid@</h1>
                 <p class="screen-2-presentacion">Un lugar donde podras contar tus secretos
                     <br> sin miedo al que diran.</p>
@@ -46,18 +46,20 @@
             <div id="screen-3" class="pantalla hide">
                 <section class="panel-cipher">
                     <h1 class="screen-3-title">Ahora sientete libre</h1>
-                    <p id="confe">Escribe tu primera confesion</p>
-                    <textarea type="text" id="confesion" class="cuadroDeTexto-2" placeholder="Escribe tu secreto ! "></textarea>
-                    <div id="caja">
-                        <p id="eda">Edad</p>
-                        <input type="number" id="offset" max="60" min="1">
+                    <p class="screen-3-subtitle">Escribe tu primera confesion</p>
+                    <div class="text-to-cipher-and-age">
+                        <textarea type="text" id="confesion" class="cuadroDeTexto-2" placeholder="Escribe tu secreto ! "></textarea>
+                        <div id="caja">
+                            <p id="eda">Edad</p>
+                            <input type="number" id="offset" max="60" min="1">
+                        </div>
                     </div>
                     <div class="buttons-option">
                         <button type="button" class="button" id="cifrar">Transformar</button>
                         <button type="button" class="button" id="descifrar">Revertir</button>
                         <button type="button" class="button" id="limpiar">Limpiar</button>
                     </div>
-                    <textarea type="text" id="traduccion" class="cuadroDeTexto-3"></textarea>
+                    <textarea type="text" id="traduccion" class="cuadroDeTexto-3" disabled></textarea>
 
                     <button type="button" class="button" id="publicar">Publicar</button>
                 </section>
@@ -73,7 +75,7 @@
                     </div>
                 </article>
             </div>
-            <div id="pantalla-4" class="pantalla hide">
+            <div id="pantalla-4" class="pantalla hide text-align-c">
                 <h1 id="publicaciones">Publicaciones</h1>
                 <p id="traducto"></p>
                 <p id="traducto-2"></p>
