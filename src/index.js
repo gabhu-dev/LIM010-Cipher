@@ -3,18 +3,19 @@ const empezar = document.getElementById('empezar')
 empezar.addEventListener('click', () => {
     /*INTENTO VALIDO*/
     if (contador <= 3) {
-        let password = document.getElementById('password').value
+        let password = document.getElementById('password').value;
         if (password === 'LABORATORIA') {
-            document.getElementById('pantalla-1').classList.add('hide');
-            document.getElementById('pantalla-2').classList.remove('hide');
+            document.getElementById('contain-screen-1').classList.add('hide');
+            document.getElementById('header').classList.remove('hide');
+            document.getElementById('screen-2').classList.remove('hide');
         }
         /*1ER INTENTO NO VALIDO*/
         else {
-            document.getElementById('resultado').innerHTML = 'vuelve a intentar';
+            document.getElementById('error').innerHTML = '&#33; vuelve a intentar';
             contador = contador + 1;
             /*2DO INTENTO NO VALIDO Y TERCERO*/
             if (contador > 2) {
-                document.getElementById('resultado').innerHTML = 'vuelve a intentarlo mas tarde';
+                document.getElementById('error').innerHTML = '&#33; vuelve a intentarlo mas tarde';
                 document.getElementById('password').disabled = true;
                 document.getElementById('empezar').disabled = true;
             }
@@ -23,8 +24,8 @@ empezar.addEventListener('click', () => {
 })
 const seguir = document.getElementById('seguir')
 seguir.addEventListener('click', () => {
-    document.getElementById('pantalla-2').classList.add('hide');
-    document.getElementById('pantalla-3').classList.remove('hide');
+    document.getElementById('screen-2').classList.add('hide');
+    document.getElementById('screen-3').classList.remove('hide');
 
 });
 const cifrar = document.getElementById('cifrar')
@@ -46,7 +47,7 @@ limpiar.addEventListener('click', () => {
 });
 const publicar = document.getElementById('publicar')
 publicar.addEventListener('click', () => {
-    document.getElementById('pantalla-3').classList.add('hide');
+    document.getElementById('screen-3').classList.add('hide');
     document.getElementById('pantalla-4').classList.remove('hide');
 
     let desp = document.getElementById('offset').value;
@@ -58,10 +59,10 @@ publicar.addEventListener('click', () => {
 const volver = document.getElementById('volver')
 volver.addEventListener('click', () => {
     document.getElementById('pantalla-4').classList.add('hide');
-    document.getElementById('pantalla-3').classList.remove('hide');
+    document.getElementById('screen-3').classList.remove('hide');
 })
 const salir = document.getElementById('salir')
 salir.addEventListener('click', () => {
     document.getElementById('pantalla-4').classList.add('hide');
-    document.getElementById('pantalla-1').classList.remove('hide');
+    document.getElementById('contain-screen-1').classList.remove('hide');
 })

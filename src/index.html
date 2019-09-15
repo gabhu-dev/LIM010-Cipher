@@ -11,57 +11,57 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
+    <header id="header" class="hide">
+        <div class="header bg-color-lead text-align-c">
             <h1>ARCANA</h1>
-            <span>
-              TU LUGAR DE SECRETOS
-            </span>
+            <span>TU LUGAR DE SECRETOS</span>
         </div>
     </header>
     <main>
-
         <div id="contenedor">
-            <div id="pantalla-1" class="pantalla">
-                <form id="comun" class="vista-1">
-                    <h1 id="nombre"><i class="fas fa-users"></i>Nombre</h1>
-                    <input type="text" class="cuadroDeTexto-4" id="nombre-1">
-                    <h2 id="contraseña" class="contraseña"> CONTRASEÑA:</h2>
-                    <input type="password" id="password" class="cuadroDeTexto">
-                    <p id="resultado" class="resultado"></p>
-                    <button type="button" id="empezar" class="buttonPass">ingresar</button>
-
-                </form>
+            <div id="contain-screen-1">
+                <div class="pantalla screen-1">
+                    <div class="img-screen"></div>
+                    <form id="comun" class="form-login bg-color-lead">
+                        <h1><i class="fas fa-cat icon-logo"></i>ARCANA</h1>
+                        <p id="error" class="form-error"></p>
+                        <input type="text" class="cuadroDeTexto-4" id="nombre-1" placeholder=" &#128100; Usuario">
+                        <input type="password" id="password" class="cuadroDeTexto" placeholder=" &#128274; Contraseña">
+                        <button type="button" id="empezar" class="button-pass button">INGRESAR</button>
+                    </form>
+                </div>
             </div>
 
-            <div id="pantalla-2" class="pantalla hide">
-                <h1 class="bienvenida">Bienvenid@</h1>
-                <p class="presentacion">Un lugar donde podras contar tus secretos
+            <div id="screen-2" class="pantalla hide">
+                <h1 class="screen-2-bienvenida">Bienvenid@</h1>
+                <p class="screen-2-presentacion">Un lugar donde podras contar tus secretos
                     <br> sin miedo al que diran.</p>
                 <div class="nota">
                     <h2 class="alerta">
                         <i class="fas fa-exclamation-circle"></i>Todo lo escrito es anónimo.</h2>
-                    <button type="button" class="button" id="seguir">seguir</button>
+                    <button type="button" class="button button-continue" id="seguir">SEGUIR</button>
                 </div>
             </div>
 
-            <div id="pantalla-3" class="pantalla hide">
-                <section class="panel-cifrado">
-                    <h1 class="ahora">Ahora sientete libre</h1>
+            <div id="screen-3" class="pantalla hide">
+                <section class="panel-cipher">
+                    <h1 class="screen-3-title">Ahora sientete libre</h1>
                     <p id="confe">Escribe tu primera confesion</p>
-                    <textarea type="text" id="confesion" class="cuadroDeTexto-2"></textarea>
+                    <textarea type="text" id="confesion" class="cuadroDeTexto-2" placeholder="Escribe tu secreto ! "></textarea>
                     <div id="caja">
                         <p id="eda">Edad</p>
                         <input type="number" id="offset" max="60" min="1">
                     </div>
-                    <button type="button" class="button" id="cifrar">transformar</button>
-                    <button type="button" class="button" id="descifrar">revertir</button>
-                    <button type="button" class="button" id="limpiar">limpiar</button>
+                    <div class="buttons-option">
+                        <button type="button" class="button" id="cifrar">Transformar</button>
+                        <button type="button" class="button" id="descifrar">Revertir</button>
+                        <button type="button" class="button" id="limpiar">Limpiar</button>
+                    </div>
                     <textarea type="text" id="traduccion" class="cuadroDeTexto-3"></textarea>
 
-                    <button type="button" class="button" id="publicar">publicar</button>
+                    <button type="button" class="button" id="publicar">Publicar</button>
                 </section>
-                <aside class="panel-indicacion">
+                <article class="panel-indicacion">
                     <div class="">
                         <p>Comparte tus secretos siguiendo estos pasos </p>
                         <ol>
@@ -71,7 +71,7 @@
                             <li>Publica</li>
                         </ol>
                     </div>
-                </aside>
+                </article>
             </div>
             <div id="pantalla-4" class="pantalla hide">
                 <h1 id="publicaciones">Publicaciones</h1>
@@ -83,7 +83,7 @@
         </div>
 
     </main>
-    <footer>derechos reservados por arcana company</footer>
+    <footer class="bg-color-lead">Derechos reservados por arcana company <i class="fas fa-cat"></i></footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/212a0d6821.js"></script>
