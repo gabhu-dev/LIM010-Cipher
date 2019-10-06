@@ -2,37 +2,33 @@ window.cipher = {
   encode: (offset, string) => {
     /* Acá va tu código que cifra*/
     string = string.toUpperCase();
-    let confesion_2 = '';
+    let confesionTwo = '';
     for (let i = 0; i < string.length; i++) {
       let caracter = string[i];
       let candado = string.charCodeAt(i);
       if (candado >= 65 && candado <= 122) {
-        confesion_2 += String.fromCharCode((candado - 65 + parseInt(offset)) % 26 + 65);
-      }
-      else {
-        confesion_2 += caracter;
+        confesionTwo += String.fromCharCode((candado - 65 + parseInt(offset)) % 26 + 65);
+      } else {
+        confesionTwo += caracter;
       }
     }
 
-    return confesion_2;
+    return confesionTwo;
   },
   decode: (offset, string) => {
     /* Acá va tu código que descifra*/
     string = string.toUpperCase();
-    let confesion_3 = '';
+    let confesionThree = '';
     for (let i = 0; i < string.length; i++) {
       let caracter = string[i];
       let candado = string.charCodeAt(i);
       if (candado >= 65 && candado <= 122) {
-        confesion_3 += String.fromCharCode((candado + 65 - parseInt(offset)) % 26 + 65);
+        confesionThree += String.fromCharCode((candado + 65 - parseInt(offset)) % 26 + 65);
+      } else {
+        confesionThree += caracter;
       }
-      else {
-        confesion_3 += caracter;
-      }
-
     }
 
-    return confesion_3;
+    return confesionThree;
   },
-}
-
+};
